@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Card image fix */
+.card-img-top {
+    height: 180px;
+    object-fit: contain;
+    background-color: #ffffff;
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+/* Navbar logo text */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+
+/* Button full width */
+.btn-primary {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Add some spacing for mobile */
+.container {
+    padding-bottom: 30px;
+}
