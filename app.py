@@ -1,9 +1,9 @@
-import os
-from flask import Flask
+from flask import Flask, render_template
+import json, os
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def home():
     with open("data/offers.json") as f:
         offers = json.load(f)
@@ -14,6 +14,5 @@ def about():
     return render_template("about.html")
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render provides PORT via env
-    app.run(host='0.0.0.0', port=port)
-
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
