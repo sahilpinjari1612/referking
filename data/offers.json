@@ -8,30 +8,30 @@
     },
     {
         "name": "Upstox",
-        "reward": "Rs. 200",
+        "reward": "Rs. 450",
         "description": "Open a free demat account and get Rs. 200 reward.",
         "ref_link": "https://leads.banksathi.com/?h=TXVkV3AvYU5rRXVjUDdwbUg2Rjg3UT09",
         "logo": "upstox.png"
     },
     {
         "name": "PhonePe",
-        "reward": "₹100 Cashback",
-        "description": "Refer PhonePe and earn ₹100.",
-        "ref_link": "https://your-phonepe-link",
+        "reward": "Rs. 200 Cashback",
+        "description": "Refer PhonePe and earn Rs. 200.",
+        "ref_link": "https://phon.pe/u9cyjj1h",
         "logo": "phonepe.png"
     },
     {
-        "name": "Groww",
-        "reward": "₹300 on Demat",
-        "description": "Refer Groww and earn ₹300 per user.",
-        "ref_link": "https://your-groww-link",
-        "logo": "groww.png"
+        "name": "Googlr Pay",
+        "reward": "Rs. 200 Cashback",
+        "description": "Refer Google Pay and earn Rs. 200.",
+        "ref_link": "https://g.co/payinvite/sl52l9k",
+        "logo": "googlepay.png"
     },
     {
-        "name": "CRED",
-        "reward": "Up to ₹250 Cashback",
-        "description": "Refer CRED and get rewards.",
-        "ref_link": "https://your-cred-link",
-        "logo": "cred.png"
+        "name": "Super Money",
+        "reward": "Rs. 250 Cashback",
+        "description": "Refer Super Money and earn Rs. 250.",
+        "ref_link": "https://link.super.money/U2Dm4turYUb",
+        "logo": "supermoney.png"
     }
 ]
