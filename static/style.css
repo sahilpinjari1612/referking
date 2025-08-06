@@ -1,22 +1,27 @@
+/* Base Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
 }
 
-/* Card image fix */
+/* Card Image Fix */
 .card-img-top {
     height: 180px;
     object-fit: contain;
     background-color: #ffffff;
 }
 
-/* Card styling */
+/* Card Styling */
 .card {
     border: 1px solid #e0e0e0;
     border-radius: 10px;
+    margin: 15px auto;
+    padding: 15px;
 }
 
-/* Navbar logo text */
+/* Navbar Logo Text */
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
@@ -27,13 +32,57 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Button full width */
+/* Button Full Width */
 .btn-primary {
     font-weight: bold;
     padding: 10px;
 }
 
-/* Add some spacing for mobile */
+/* Container Padding */
 .container {
     padding-bottom: 30px;
+}
+
+/* ===== Login/Register Styling ===== */
+form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
